@@ -9,13 +9,17 @@ body {
   color: var(--cor-11);
 }
 
-h1, ul, p {
+h1, h2, h3, h4, ul, p, blockquote {
   margin: 0;
 }
 
 img {
   max-width: 100%;
   display: block;
+}
+
+img[src$=".jpg"] {
+  border-radius: 4px;
 }
 
 ul {

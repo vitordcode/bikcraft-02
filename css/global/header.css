@@ -8,8 +8,6 @@
   align-items: center;
   flex-wrap: wrap;
   padding: 20px;
-  max-width: 1200px;
-  margin: 0 auto;
   gap: 20px;
 }
 
@@ -22,11 +20,7 @@
 .header-menu a {
   padding: 16px 0;
   display: inline;
-  color: var(--cor-0);
-  font-size: 18px;
   position: relative;
-  font-family: 'Poppins', sans-serif;
-  font-weight: 400;
 }
 
 .header-menu a::after {

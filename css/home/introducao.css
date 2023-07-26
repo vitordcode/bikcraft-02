@@ -6,9 +6,6 @@
 
 .introducao {
   display: grid;
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 0 20px;
   grid-template-columns: 1fr 1fr;
   gap: 0 40px;
 }
@@ -31,11 +28,9 @@
   color: var(--cor-5);
 }
 
-
-
-
 .introducao img {
   height: 100%;
+  width: 100%;
   object-fit: cover;
   border-radius: 4px;
 }
@@ -63,7 +58,6 @@
     padding-bottom: 0;
   }
   .introducao h1 {
-    font-size: 32px;
     margin-bottom: 16px;
   }
   .introducao img {
